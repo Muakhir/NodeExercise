@@ -1,19 +1,5 @@
 let fs = require('fs/promises');
 
-// function appendFile(data) {
-//    fs.appendFile('data.txt', data, (err) => {
-//        if (err) throw err;
-//        console.log('Data appended to file.');
-//    });
-// }
-
-//  // It does not overide the first content but it also does not display
-// //  in the next line
-
-// appendFile('Hello, World!');
-// appendFile('Bye, World!');
-
-
 async function appendDataToFile() {
     try {
       let filePath = 'data.txt';
